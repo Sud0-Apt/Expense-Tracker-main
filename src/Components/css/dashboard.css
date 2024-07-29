@@ -1,0 +1,83 @@
+.dashboard {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .expense-form {
+    
+    max-width: 500px;
+    margin: 80px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="number"] {
+    appearance: textfield;
+  }
+  
+  .form-group input::-webkit-outer-spin-button,
+  .form-group input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .btn {
+    background-color: #9400d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #55007a;
+  }
+
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .expense-form {
+      padding: 15px;
+    }
+  
+    .form-group label,
+    .form-group input,
+    .form-group select {
+      font-size: 1em;
+    }
+  
+    .btn {
+      font-size: 1em;
+    }
+  }
+  

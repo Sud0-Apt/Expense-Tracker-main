@@ -1,0 +1,25 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .chart-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .chart {
+    flex: 1 1 45%;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .chart h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

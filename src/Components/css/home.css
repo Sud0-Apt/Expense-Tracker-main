@@ -1,0 +1,94 @@
+/* General styling for the home page */
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Info section styling */
+.info-section {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.info-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.info-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Links section styling */
+.links-section {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.links-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.links-section nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links-section nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.links-section nav ul li a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.links-section nav ul li a:hover {
+  color: #388E3C;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .info-section h2,
+  .links-section h2 {
+    font-size: 1.8em;
+  }
+
+  .info-section p,
+  .links-section nav ul li a {
+    font-size: 1em;
+  }
+
+  .links-section nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}

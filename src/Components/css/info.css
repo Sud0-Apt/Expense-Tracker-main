@@ -1,0 +1,14 @@
+.info-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .info-section h2 {
+    font-size: 2em;
+  }
+  
+  .info-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
